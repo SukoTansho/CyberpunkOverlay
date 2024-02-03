@@ -1,0 +1,51 @@
+:root {
+    --green-color: #00ff2a;
+    --contrast-color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("hintergrundbild.jpg"); /* Ersetze 'hintergrundbild.jpg' durch den Pfad zu deinem Hintergrundbild */
+  background-size: cover;
+  height: 1080px;
+  width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+.row.end {
+  justify-content: flex-end;
+}
+
+.rectangle {
+  width: 500px;
+  height: 350px;
+  margin: 30px 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid var(--green-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.streamer-plate {
+  width: 200px;
+  top: 45px;
+  position: relative;
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.overlay-title {
+  align-self: flex-start;
+}
