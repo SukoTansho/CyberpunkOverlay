@@ -6,8 +6,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("hintergrundbild.jpg"); /* Ersetze 'hintergrundbild.jpg' durch den Pfad zu deinem Hintergrundbild */
+  background-image: url("cyberpunk-BG.png"); /* Ersetze 'hintergrundbild.jpg' durch den Pfad zu deinem Hintergrundbild */
   background-size: cover;
+  background-repeat: no-repeat;
   height: 1080px;
   width: 1920px;
   display: flex;
